@@ -1,0 +1,16 @@
+net: "/home/laurae-linux/Documents/Data_Science/Caffe/train_val.prototxt"
+test_iter: 100
+test_interval: 10
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.4
+stepsize: 30
+display: 1
+iter_size: 6
+max_iter: 300
+momentum: 0.9
+weight_decay: 0.00001
+snapshot: 30
+snapshot_prefix: "/home/laurae-linux/Documents/Data_Science/Caffe/models/train"
+solver_mode: GPU
+type: "Nesterov"

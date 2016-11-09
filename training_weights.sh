@@ -1,0 +1,1 @@
+/home/laurae-linux/Downloads/caffe/build/tools/caffe train --solver /home/laurae-linux/Documents/Data_Science/Caffe/solver.prototxt --weights /home/laurae-linux/Documents/Data_Science/Caffe/models_regression_new/train_iter_560.caffemodel 2>&1 | tee /home/laurae-linux/Documents/Data_Science/Caffe/log/my_model.log --ignore-interrupts

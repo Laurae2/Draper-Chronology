@@ -1,0 +1,14 @@
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/image_resize.sh'
+
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/create_imagenet.sh'
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/create_mean_image.sh'
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/training.sh'
+
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/resume_training.sh'
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/training_weights.sh'
+
+
+sh '/home/laurae-linux/Documents/Data_Science/Caffe/visualize_log.sh'
+
+
+python /home/laurae-linux/Documents/Data_Science/Caffe/create_mean_npy.py /home/laurae-linux/Documents/Data_Science/Caffe/mean_image.binaryproto /home/laurae-linux/Documents/Data_Science/Caffe/mean_image.npy
