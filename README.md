@@ -6,6 +6,8 @@ Draper Image Chronology competition on Kaggle: Deep Learning tests (Caffe)
 
 This repository includes many neural architectures. They all fail to train for better than random predictions, in any case.
 
+The objective is to maximize the **Spearman Correlation Coefficient**. Not easy as it is both an image processing task, but also an ranking/ordinality task!
+
 # Kaggle Blog Post
 
 See the Kaggle blog post for a working solution (does not involve any neural networks, only feature engineering via ImageJ, and Extreme Gradient Boosting via data augmentation): http://blog.kaggle.com/2016/09/08/draper-satellite-image-chronology-damien-soukhavong/ - it also highlights a real world usage (depicting a failed attempt proven statistically via a Monte-Carlo).
@@ -22,13 +24,13 @@ To pre-process the data, I recommend to use ImageJ to lower the risk of overfitt
 
 ## Google Earth Images
 
-Here is a Monte-Carlo simulation on Google Earth Images on the best model:
+Here is a Monte-Carlo simulation on Google Earth Images on the best model, Y representing the Spearman Correlation Coefficient:
 
 ![](http://5047-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2016/09/image02.png)
 
 ## Real world images
 
-Here is a Monte-Carlo simulation on my pictures I took for the best model:
+Here is a Monte-Carlo simulation on my pictures I took for the best model, Y representing the Spearman Correlation Coefficient:
 
 ![](http://5047-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2016/09/image01.png)
 
